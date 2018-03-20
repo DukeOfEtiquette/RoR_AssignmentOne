@@ -39,6 +39,6 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 # Use Postgres for Heroku deploy in production
-gem 'pg', group: :production
+gem 'pg', '0.18.0', group: :production
 
 gem 'rails_12factor', group: :production
