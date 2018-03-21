@@ -1,10 +1,10 @@
-<h1>
-  Create an article
-</h1>
+<p>
+  edit page for Article: <%= @article.id %>
+</p>
 
 <% if @article.errors.any? %>
 	<h2>
-    The following errors prevented the Article from getting created
+    The following errors prevented the Article from getting updated
   </h2>
 	<% @article.errors.full_messages.each do |msg| %>
 		<ul>
@@ -28,7 +28,6 @@
 <p>
   <%= f.submit %>
 </p>
-
 <% end %>
 
 
