@@ -7,11 +7,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<%= render 'layouts/navigation' %>
+	<div style="background-color: #08088A;">
+		 <%= render 'layouts/navigation' %>
+	</div>
 	<%= render 'layouts/messages' %>
-	<div class="container">
+	<div class="container" >
 		<%= yield %>
 	</div>
-
+	<%= render 'layouts/footer' %>
 </body>
 </html>
